@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ISAHÍAS SILVA | Especialista em Treinamento Personalizado</title>
+    <meta name="description" content="Consultoria fitness e personal trainer Isaías Silva. Resultados reais em emagrecimento, hipertrofia e qualidade de vida. Agende agora.">
+    <meta name="keywords" content="personal trainer, consultoria online, fitness, academia, emagrecimento, hipertrofia, saúde, Isaías Silva, treino personalizado">
+    <meta name="author" content="Isahías Silva">
+    <!-- Open Graph Meta Tags para Redes Sociais -->
+    <meta property="og:title" content="ISAHÍAS SILVA | Treinamento Personalizado">
+    <meta property="og:description" content="Resultados reais em emagrecimento e hipertrofia. Transforme seu corpo com uma metodologia focada em você.">
+    <meta property="og:image" content="../image/perfil.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <main class="glass-card">
+        <div class="top-actions-left">
+            <div class="share-container">
+
+                <button class="icon-btn share-toggle" onclick="toggleShareDropdown()" aria-expanded="false" aria-label="Compartilhar">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+
+                <div class="share-dropdown" id="shareDropdown">
+                    <div class="share-title-drop">Compartilhar Hub</div>
+                    <a href="javascript:void(0)" onclick="shareTo('whatsapp')" class="share-drop-item">
+                        <i class="fab fa-whatsapp" style="color:#25D366"></i> WhatsApp</a>
+
+                    <a href="javascript:void(0)" onclick="shareTo('facebook')" class="share-drop-item">
+                        <i class="fab fa-facebook-f" style="color:#1877F2"></i> Facebook</a>
+
+                    <a href="javascript:void(0)" onclick="shareTo('twitter')" class="share-drop-item">
+                        <i class="fab fa-twitter" style="color:#1DA1F2"></i> Twitter</a>
+
+                    <a href="javascript:void(0)" onclick="shareTo('instagram')" class="share-drop-item">
+                        <i class="fab fa-instagram" style="color:#E1306C"></i> Instagram</a>
+
+                    <a href="javascript:void(0)" onclick="shareTo('tiktok')" class="share-drop-item">
+                        <i class="fab fa-tiktok" style="color:#fff"></i> TikTok</a>
+
+                    <a href="javascript:void(0)" onclick="shareTo('copy')" class="share-drop-item">
+                        <i class="fas fa-link" style="color:var(--brand-green)"></i> Copiar Link</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="top-actions">
+            <button class="icon-btn theme-toggle" onclick="toggleTheme()" aria-label="Alternar Tema">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+
+        <header class="profile-section">
+            <figure class="profile-figure">
+                <img src="./image/perfil.jpeg" alt="Foto de Perfil de Isaías Silva, Personal Trainer" class="profile-img">
+            </figure>
+            <h1>ISAHÍAS SILVA</h1>
+            <h2>Especialista em Treinamento Personalizado</h2>
+            <p class="bio-text">Transforme seu corpo com metodologia focada em resultados reais. Especialista em Hipertrofia, Emagrecimento e Saúde.</p>
+        </header>
+
+        <nav class="action-grid" aria-label="Ações Principais">
+            <a href="https://wa.me/553299404076" class="btn-action" aria-label="Falar no WhatsApp para Consultoria">
+                <i class="fab fa-whatsapp"></i> 
+                <span>Consultoria</span>
+            </a>
+
+            <a href="#servicesTrack" class="btn-action" aria-label="Ver Planos de Treino">
+                <i class="fas fa-dumbbell"></i>
+                 <span>Planos</span>
+            </a>
+        </nav>
+
+        <section class="about-section" aria-labelledby="sobre-title">
+            <header class="section-header">
+                <h3 id="sobre-title">Sobre o Personal</h3>
+            </header>
+
+            <figure class="about-figure">
+                <img src="./image/perfil.jpeg" alt="Foto profissional de Isaías Silva na academia" class="about-img">
+            </figure>
+
+            <h4 class="about-name">ISAHÍAS SILVA</h4>
+            <article class="about-text">
+                <p>Transforme seu corpo de forma rápida, com metodologia focada em resultados reais. Entusiasta em emagrecimento, hipertrofia e saúde de alta performance.</p>
+                <p>Sou apaixonado por transformar a vida de pessoas comuns através do movimento e do exercício físico, com metodologias eficazes que unem ciência e prática construtiva.</p>
+                <p>Meu objetivo é entregar o caminho mais eficaz e seguro para o seu objetivo, seja ele hipertrofia máxima, emagrecimento saudável ou melhora significativa na sua qualidade de vida.</p>
+            </article>
+        </section>
+
+        <section aria-labelledby="resultados-title" class="results-section">
+            <header class="section-header">
+                <h3 id="resultados-title">Resultados Reais</h3>
+            </header>
+
+            <div class="results-container" id="resultsTrack">
+                <article class="result-card">
+                    <figure class="comparison-box">
+                        <!-- Removido o inline grayscale para ser tratado no CSS se necessário, e width ajustado no CSS -->
+                        <img src="./image/resultado-2.jpeg" loading="lazy" alt="Montagem mostrando foto do aluno Antes e Depois de perder 13kg">
+                    </figure>
+                    <div class="result-info">
+                        <p class="result-desc">-13kg em 3 meses.</p>
+                        <span class="result-badge">EMAGRECIMENTO</span>
+                    </div>
+                </article>
+
+                <article class="result-card">
+                    <figure class="comparison-box">
+                        <img src="./image/resultado-1.jpeg" loading="lazy" alt="Montagem mostrando a evolução do aluno do manequim 46 ao 40">
+                    </figure>
+                    <div class="result-info">
+                        <p class="result-desc">Do 46 ao 40 em 3 meses.</p>
+                        <span class="result-badge">EMAGRECIMENTO</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="servicos-title" class="services-section">
+            <header class="section-header">
+                <h3 id="servicos-title">Escolha seu Plano</h3>
+            </header>
+            <div class="carousel-container">
+                <div class="nav-btn nav-left" onclick="scrollTrack('servicesTrack', -1)">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="carousel-track-manual" id="servicesTrack">
+                    
+                    <article class="plan-card">
+                        <div class="plan-name">Consultoria Online</div>
+                        <div class="plan-price">R$ 150 <span>/mês</span></div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Treino via App Exclusivo</li>
+                            <li><i class="fas fa-check"></i> Análise de Vídeos</li>
+                            <li><i class="fas fa-check"></i> Suporte WhatsApp</li>
+                            <li><i class="fas fa-check"></i> Periodização Eficiente</li>
+                        </ul>
+                        <div class="plan-btn">Selecionar</div>
+                    </article>
+                    
+                    <article class="plan-card" style="border-color: var(--brand-green-light);">
+                        <div class="plan-name">Personal VIP</div>
+                        <div class="plan-price">A Combinar</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Atendimento Presencial</li>
+                            <li><i class="fas fa-check"></i> Correção Biomecânica</li>
+                            <li><i class="fas fa-check"></i> Motivação Total</li>
+                            <li><i class="fas fa-check"></i> Academias & Condomínios</li>
+                        </ul>
+                        <div class="plan-btn">Selecionar</div>
+                    </article>
+                    
+                    <article class="plan-card">
+                        <div class="plan-name">Ficha de Treino</div>
+                        <div class="plan-price">R$ 90 <span>/único</span></div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Protocolo de 6 a 8 Semanas</li>
+                            <li><i class="fas fa-check"></i> Divisão Inteligente (ABC/ABCD)</li>
+                            <li><i class="fas fa-check"></i> PDF Ilustrado</li>
+                            <li><i class="fas fa-times" style="color:#555"></i> Sem suporte diário</li>
+                        </ul>
+                        <div class="plan-btn">Selecionar</div>
+                    </article>
+
+                </div>
+                <div class="nav-btn nav-right" onclick="scrollTrack('servicesTrack', 1)"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+            <header class="section-header">
+                <h3 id="faq-title">Dúvidas Frequentes</h3>
+            </header>
+            <div class="faq-container">
+
+                <details class="faq-item" open>
+                    <summary class="faq-question">Como funciona a consultoria online? 
+                        <i class="fas fa-chevron-down"></i>
+                    </summary>
+                    <div class="faq-answer">Você recebe seu treino detalhado por um aplicativo exclusivo, com vídeos explicativos e meu suporte direto pelo WhatsApp para ajustes e correções.</div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">Serve para iniciantes? 
+                        <i class="fas fa-chevron-down"></i>
+                    </summary>
+                    <div class="faq-answer">Com certeza! O planejamento é totalmente personalizado para o seu nível atual, respeitando suas limitações e evoluindo gradualmente.</div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">Quanto tempo para ver resultados?
+                         <i class="fas fa-chevron-down"></i>
+                        </summary>
+                    <div class="faq-answer">Com adesão ao plano, alunos costumam notar mudanças visuais e de disposição já nas primeiras 4 a 6 semanas de treino consistente.</div>
+                </details>
+            </div>
+        </section>
+
+        <section aria-labelledby="agendamento-title" class="schedule-section">
+            <header class="section-header" style="margin-top: 30px;">
+                <h3 id="agendamento-title">Agende sua Sessão</h3>
+            </header>
+
+            <form class="schedule-form" onsubmit="event.preventDefault(); agendarWhatsApp();">
+                <div class="form-group">
+                    <label for="clientName" class="form-label">Seu Nome</label>
+                    <input type="text" id="clientName" class="form-input" placeholder="Digite seu nome" required>
+                </div>
+                
+                <div class="form-row" style="display:grid; grid-template-columns:100px 1fr; gap:10px;">
+
+                    <div class="form-group">
+                        <label for="clientAge" class="form-label">Idade</label>
+                        <input type="number" id="clientAge" class="form-input" placeholder="Sua idade" required min="10" max="100">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="serviceSelect" class="form-label">Objetivo / Plano</label>
+                        <select id="serviceSelect" class="form-select" required>
+                            <option value="" disabled selected>Selecionar...</option>
+                            <option value="Consultoria Online">Consultoria Online</option>
+                            <option value="Personal Presencial">Personal Presencial</option>
+                            <option value="Ficha de Treino">Ficha de Treino</option>
+                            <option value="Avaliação Física">Avaliação Física</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group"><label for="clientObs" class="form-label">Observações (Dores, cirurgias, etc)</label>
+                    <textarea id="clientObs" class="form-input" placeholder="Ex: Tenho dor lombar, hérnia de disco..." rows="2" style="resize: vertical;">
+                    </textarea>
+                </div>
+
+                <div class="form-row schedule-data-row">
+                    <div class="form-group">
+                        <label for="dateSelect" class="form-label">Data Preferida</label>
+                        <input type="date" id="dateSelect" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="timeSelect" class="form-label">Turno</label>
+                        <select id="timeSelect" class="form-select">
+                        <option value="Manhã">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noite">Noite</option>
+                    </select>
+                </div>
+                </div>
+                <button type="submit" class="btn-schedule"><i class="fab fa-whatsapp"></i> Enviar Pedido</button>
+            </form>
+        </section>
+
+        <a href="#clientName" class="cta-box-final">
+            <div class="cta-content">
+                <h2 class="cta-title">Comece Hoje</h2>
+                <p class="cta-sub">O corpo que você quer começa na decisão que você toma agora.</p>
+                <div class="cta-btn-inner">QUERO TREINAR</div>
+            </div>
+        </a>
+
+        <footer class="footer">
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/prof.isahiasilva?igsh=bG56bzN6d2c1eWw=" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2026 ISAHÍAS SILVA.</p>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
