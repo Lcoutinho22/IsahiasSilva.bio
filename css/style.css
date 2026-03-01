@@ -240,6 +240,8 @@ h2 {
 }
 
 .plan-card {
+  width: 280px;
+  max-width: 80vw;
   min-width: 250px;
   background: linear-gradient(160deg, var(--btn-bg), rgba(0, 0, 0, 0.05));
   border: var(--border-style);
@@ -354,6 +356,8 @@ h2 {
 }
 
 .result-card {
+  width: 280px;
+  max-width: 80vw;
   min-width: 260px;
   background: var(--btn-bg);
   border: var(--border-style);
@@ -776,10 +780,12 @@ details[open].faq-item .faq-question i {
   }
   
   .result-card {
+    width: 320px;
     min-width: 320px;
   }
   
   .plan-card {
+    width: 300px;
     min-width: 300px;
     padding: 35px 30px;
   }
